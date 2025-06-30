@@ -1,0 +1,23 @@
+{
+  "name": "karnata-balam-website",
+  "version": "1.0.0",
+  "description": "Karnata Balam - Kannada Heritage Society Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server . -p 3000 -o",
+    "start": "http-server . -p 3000",
+    "build": "echo 'Static site - no build process needed'"
+  },
+  "keywords": [
+    "kannada",
+    "heritage",
+    "karnataka",
+    "pulakeshi",
+    "website"
+  ],
+  "author": "Karnata Balam",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
